@@ -1,0 +1,30 @@
+input {
+    width: 360px;
+}
+
+.left-input {
+    width: 360px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.left-input > div {
+    box-sizing: border-box;
+    height: 120px;
+    width: 120px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.left-input > div > div {
+    box-sizing: border-box;
+    border: 1px solid black;
+    height: 40x;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
